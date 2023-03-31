@@ -1,15 +1,15 @@
 [
 {
   "modid": "gtclassic",
-  "name": "GregTech Classic",
-  "description": "an experiment with Forge 1.12.2.",
+  "name": "Vintage GregTech",
+  "description": "Maintained continuation of GT Classic for IC2 Classic on 1.12.2.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["e99999, trinsdar"],
-  "credits": "e99999, trinsdar, muramasa, speiger for making ic2 classic, Gregorious T for making the GT",
-  "logoFile": "",
+  "authorList": ["e99999, Trinsdar", "Rongmario"],
+  "credits": "Muramasa, Speiger for making ic2 classic, Gregorious T for making the GT",
+  "logoFile": "icon.png",
   "screenshots": [],
   "dependencies": []
 }

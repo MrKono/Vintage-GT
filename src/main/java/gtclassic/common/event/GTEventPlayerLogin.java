@@ -8,6 +8,8 @@ public class GTEventPlayerLogin {
 
 	@SubscribeEvent
 	public void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
-		event.player.sendMessage(new TextComponentString("GregTech Classic Expansion (GTCX) alters the careful balancing and design of GregTech Classic (GTC). Many of the features and recipes that make GTC unique have been modified or removed by GTCX. I am not resposible for any errors or bugs encountered while playing with GTCX. This warning may be disabled by setting enableGTCXWarning to false in the GTC config. - e99999"));
+		event.player.sendMessage(new TextComponentString("GregTech Classic Expansion (GTCX) alters the careful balancing and design of Vintage GregTech. Many of the features " +
+				"and recipes that make Vintage GregTech unique have been modified or removed by GTCX. I am not responsible for any errors or bugs encountered while playing with " +
+				"GTCX. This warning may be disabled by setting enableGTCXWarning to false in the GTC config. - e99999"));
 	}
 }

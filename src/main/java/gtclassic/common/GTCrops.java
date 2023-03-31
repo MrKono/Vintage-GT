@@ -17,7 +17,7 @@ public class GTCrops {
 		registerCrop(7, GTMaterial.UUAmplifier, "Transformium", 4, "Transform", "Coal", "Reed");
 	}
 
-	/** Private method only for GTClassic **/
+	/** Private method only for VintageGT **/
 	private static void registerCrop(int id, GTMaterial mat, String name, int tier, String... attributes) {
 		GTCropHandler.registerCrop(id * 4, GTMod.MODID + "_crops", mat, name, "e99999", tier, attributes);
 	}

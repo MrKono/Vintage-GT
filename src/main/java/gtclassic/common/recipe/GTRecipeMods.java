@@ -26,7 +26,7 @@ import net.minecraftforge.fml.common.Loader;
 public class GTRecipeMods {
 
 	public static void postInit() {
-		/** Stuff for people too slow to handle ore dict at the right time **/
+		/* Stuff for people too slow to handle ore dict at the right time */
 		GTTileCentrifuge.addRecipe("dustDiamond", 1, 0, GTTileCentrifuge.totalEu(100000), GTMaterialGen.getDust(GTMaterial.Carbon, 64));
 		if (GTConfig.modcompat.compatBuildcraft && Loader.isModLoaded(GTValues.MOD_ID_BUILDCRAFT)) {
 			// Classic GT Quarry stuff

@@ -28,7 +28,7 @@ public class GTRecipeIterators {
 
 	public static ICraftingRecipeList recipes = ClassicRecipes.advCrafting;
 
-	/** Iterates through the GregTech Classic mat registry **/
+	/** Iterates through the VintageGT material registry **/
 	public static void init() {
 		for (GTMaterial mat : GTMaterial.values()) {
 			createIngotRecipe(mat);

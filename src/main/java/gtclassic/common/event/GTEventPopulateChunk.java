@@ -23,8 +23,7 @@ public class GTEventPopulateChunk {
 
 	/*
 	 * Makes oceans have sand, thanks to Jabelar for finding this work around
-	 * https://www.minecraftforge.net/forum/topic/62021-replace-blocks-while-the-
-	 * world-generates/
+	 * https://www.minecraftforge.net/forum/topic/62021-replace-blocks-while-the-world-generates/
 	 */
 	@SubscribeEvent(priority = EventPriority.NORMAL)
 	public void onEvent(PopulateChunkEvent.Post event) {
@@ -32,7 +31,7 @@ public class GTEventPopulateChunk {
 		if (!world.provider.getDimensionType().equals(DimensionType.OVERWORLD)) {
 			return;
 		}
-		Chunk chunk = world.getChunkFromChunkCoords(event.getChunkX(), event.getChunkZ());
+		Chunk chunk = world.getChunk(event.getChunkX(), event.getChunkZ());
 		for (int x = 0; x < 16; ++x) {
 			for (int z = 0; z < 16; ++z) {
 				Biome biomegenbase = world.getBiome(new BlockPos(chunk.x * 16 + x, 128, chunk.z * 16 + z));

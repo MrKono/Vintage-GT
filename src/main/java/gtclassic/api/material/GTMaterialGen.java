@@ -44,7 +44,7 @@ public class GTMaterialGen {
 	}
 
 	/**
-	 * Where GTClassic iterates the material list and put items on the matieral map.
+	 * Where VintageGT iterates the material list and put items on the material map.
 	 **/
 	public static void init() {
 		for (GTMaterialFlag blockFlag : blockFlags) {

@@ -34,7 +34,7 @@ public class GTMaterialFlag {
 
 	public GTMaterialFlag(String suffix, String texture, int id, boolean layered, String modid) {
 		if (LAST_INTERNAL_ID >= 63) {
-			throw new IllegalArgumentException("GregTech Classic material flags overloaded! Limit is 64");
+			throw new IllegalArgumentException("Vintage GregTech only allows 64 Material Flags!");
 		}
 		this.mask = 1L << LAST_INTERNAL_ID++;
 		this.suffix = suffix;
